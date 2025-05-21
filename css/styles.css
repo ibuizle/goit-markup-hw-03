@@ -22,7 +22,7 @@ ul {
     list-style: none;
 }
 
-.header-title{
+.main-header{
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -30,14 +30,20 @@ ul {
     display: flex;
 }
 
-.navi-title .container{
+.container{
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.nav-title{
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav{
     display: flex;
     align-items: center;
 }    
@@ -79,16 +85,19 @@ ul {
 
 }
 
-.list-title{
+.menu{
     display: flex;
     gap: 40px;
     padding: 24px 0;
 
 }
 
-.address-title{
+.contact-list{
     display: flex;
     gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding:0;
 }
 
 .features{
@@ -126,7 +135,9 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-decoration: none;
 }
+
 .email:hover,
 .email:focus{
     color: #404bbf;

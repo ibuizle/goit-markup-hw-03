@@ -28,6 +28,7 @@ ul {
 
 .navi-title{
     display: flex;
+    padding: 24px 0;
 }
 
 .container{
@@ -177,9 +178,7 @@ ul {
     text-decoration: none;
 }
 
-.email-list{
-    padding: 24px 0;
-}
+
 
 .email:hover,
 .email:focus{

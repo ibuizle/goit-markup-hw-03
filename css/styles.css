@@ -177,6 +177,10 @@ ul {
     text-decoration: none;
 }
 
+.email-list{
+    padding: 24px 0;
+}
+
 .email:hover,
 .email:focus{
     color: #404bbf;

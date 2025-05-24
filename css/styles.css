@@ -171,6 +171,7 @@ ul {
         letter-spacing: 0.02em;
         color: #434455;
         text-decoration: none;
+        padding: 24px 0;
 }
 
 .email:hover,
@@ -204,43 +205,60 @@ ul {
 
 .team{
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .hero-name{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .hero-prof{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .ours{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color:#2e2f42;
-        background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color:#2e2f42;
+    background-color: #FFFFFF;
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .team-card{
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
 }
 
+.team-card-content {
+   padding: 32px 0; 
+}
 
-.app{
+.apps{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;

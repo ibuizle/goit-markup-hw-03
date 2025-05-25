@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+ul {
+    padding: 0;
+    margin: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0; 
+}
+
 img{
     display: block;
 }
@@ -76,10 +91,13 @@ ul {
 
 .button:hover,
 .button:focus{
-  background-color:#404bbf;
 
+    background-color:#404bbf;
 }
         
+
+.main-header .logo {
+    margin-right: 76px; }
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -89,7 +107,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
     }
